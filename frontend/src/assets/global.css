@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(ellipse at 50% 0%, #7c3aed 0%, #181028 80%) !important;
+  color: #fff;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+a {
+  color: #e0cfff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #3c1d5f;
+}
+::-webkit-scrollbar-thumb {
+  background: #591d5f;
+  border-radius: 4px;
+} 
+
+#app, main, .view-container, .page-container {
+  width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elimina restricciones de ancho en elementos comunes */
+.container, .main-container, .content {
+  max-width: 100vw !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+} 
